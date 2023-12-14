@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TatianaSuz/command-executer#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.0",
