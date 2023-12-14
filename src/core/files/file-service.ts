@@ -1,4 +1,4 @@
-import {promises} from 'fs'
+import { promises } from 'fs'
 import { dirname, isAbsolute, join } from 'path'
 
 // хелпер функции дял реализации экзекютера, которые получат инпуты сбилдят и

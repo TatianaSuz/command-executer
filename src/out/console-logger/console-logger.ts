@@ -1,9 +1,9 @@
-import {IStreamLogger} from "../../core/handlers/stream-logger";
+import { IStreamLogger } from "../../core/handlers/stream-logger";
 
 // это у нас синглтон
 export class ConsoleLogger implements IStreamLogger {
     private static logger: ConsoleLogger;
-    public static getInstance() {
+    public static getInstance () {
         if(!ConsoleLogger.logger) {
             ConsoleLogger.logger = new ConsoleLogger()
         }
